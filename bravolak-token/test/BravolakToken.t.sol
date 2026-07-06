@@ -69,9 +69,10 @@ contract BravolakTokenTest is Test {
         uint256 supplyBefore = token.totalSupply();
 
         token.burn(burnAmount);
+        
         assertEq(
             token.totalSupply(),
             supplyBefore - burnAmount
-        );
+        ); 
     }
 }
