@@ -11,3 +11,4 @@ Bravolak-token is an ERC-20 token created as a sample projects for tutoring in T
 - Solidity
 - Foundry
 - OpenZeppelin
+Practice on git workflow.
